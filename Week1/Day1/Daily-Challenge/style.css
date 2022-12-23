@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: ;
+}
+body{
+    background-image: url("https://user-images.githubusercontent.com/30896388/168069577-2f570d08-61d3-49d8-b7dd-c4b9192aaf68.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    background-color: #000;
+    color: #fff;
+    height: 70px;
+}
+.nav-menu ul{
+    list-style-type: none;   
+}
+.nav-menu ul li{
+    display: inline-block;
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    display: block;
+    margin-right: 10px;
+    color: #fff;
+    font-weight: 700;
+}
+section{
+    position: relative;
+    left: 100px;
+    top: 300px;
+    width: 70%;
+    /* padding-left: 100px; */
+}
+section h1{
+    font-size: 3.5em;
+    margin-bottom: 30px;
+    letter-spacing: 20px;
+}
+section .text{
+    width: 60%;
+    height: 214px;
+    position: relative;
+    overflow: hidden;
+    font-size: 1.2em;
+}
+
+/* Dispositifs très petits (téléphones, 600px et moins) */
+@media only screen and (max-width : 600px) {...}
+
+/* Petits appareils (tablettes en mode portrait et grands téléphones, 600px et plus) */
+@media only screen and (min-width : 600px) {...}
+
+/* Périphériques moyens (tablettes en mode paysage, 768px et plus) */
+@media only screen and (min-width : 768px) {...}
+
+/* Grands appareils (ordinateurs portables/de bureau, 992px et plus) */
+@media only screen and (min-width : 992px) {...}
+
+/* Appareils très grands (ordinateurs portables et de bureau, 1200px et plus) */
+@media only screen and (min-width : 1200px) {...}

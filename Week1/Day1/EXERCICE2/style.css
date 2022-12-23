@@ -1,0 +1,89 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.img-div {
+    background-image: url("https://images.pexels.com/photos/68767/divers-underwater-ocean-swim-68767.jpeg?auto=compress&cs=tinysrgb&w=600");
+	width: 100%;
+	height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+#searchbar{
+    padding:15px;
+    border-radius: 10px;
+    font-family: arial;
+    font-size: 24px;
+    margin: -200px;
+    width: 350px;
+    padding: 5px;
+    height: 50px;
+    outline: dashed 1px black;
+    /* Setup */
+    position: relative;
+  }
+   
+  .child {
+    width: 50px;
+    height: 50px;
+    /* background-color: red; */
+    /* Center vertically and horizontally */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -50px; /* Apply negative top and left margins to truly center the element */
+  }
+  #sign {
+    /* border-radius: 10px;
+    padding-top: 29px;
+    padding-bottom: 3px;
+    border-left-width: 9.6px;
+    border-left-style: solid;
+    margin-left: 157px;
+    margin-top: -511px;
+    border-top-width: 12.6px;
+    border-top-style: solid;
+    border-right-width: 23.6px;
+    padding-left: 8px;
+    border-bottom-style: solid;
+    padding-top: 17px;
+    margin-bottom: -25px;
+    padding-bottom: 21px;
+    outline: dashed 1px black;
+    border-top-width: 21.6px;
+    /* Setup 
+    position: relative;
+    background-color: #007bff; */
+    padding:205px;
+    border-radius: 10px;
+    font-family: arial;
+    font-size: 24px;
+    margin-left: 158px;;
+    width: 150px;
+    padding: 5px;
+    height: 50px;
+    outline: dashed 1px black;
+    /* Setup */
+    position: relative;
+
+  }
+
+  input[type=text] {
+     width: 30%;
+     -webkit-transition: width 0.15s ease-in-out;
+     transition: width 0.15s ease-in-out;
+  }
+  .text {
+    display: inline-flex;
+    justify-content: center;
+    margin-top: -10px;
+	/* transform: translate(-85%, -150%); */
+	color: #ffffff;
+    
+    
+}
+

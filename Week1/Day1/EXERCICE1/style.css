@@ -1,0 +1,19 @@
+.diference, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+.titre {
+    color:red;
+    border: 1px solid red;
+    border-color: red;
+}
+.image {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 400px;
+}
+.media {
+     text-align: center
+}
