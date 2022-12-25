@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 45px;
+    line-height: 45px;
+    color: white;
+    background-color: #000;
+    padding-right: 10px;
+}
+
+.logo {
+    display: inline;
+    margin-left: 10px;
+}
+
+.menu {
+    display: inline;
+    float: right;
+}
+
+.menu-nav {
+    display: inline;
+}
+
+.ul-nav {
+    display: inline;
+}
+
+.ul-nav li {
+    display: inline;
+    text-transform: uppercase;
+}
+
+.ul-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #000;
+    color: white;
+    text-align: center;
+}
