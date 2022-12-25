@@ -1,0 +1,105 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 15px;
+  background-color:gray;
+  color: #fff;
+  height: 70px;
+}
+header a{
+  text-decoration: none;
+  color: #fff;
+}
+header a:hover{
+  color: green;
+}
+nav ul{
+  list-style-type: none;
+}
+nav ul li{
+  float: left;
+  margin-right: 15px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+.banniere{
+  background-image: url('https://images.pexels.com/photos/68767/divers-underwater-ocean-swim-68767.jpeg?auto=compress&cs=tinysrgb&w=600');
+  background-size: cover;
+  height: 90vh;
+
+
+}
+#searchbar{
+    padding:15px;
+    border-radius: 10px;
+    font-family: arial;
+    font-size: 24px;
+    width: 350px;
+    padding: 5px;
+    height: 50px;
+    outline: dashed 1px black;
+    /* Setup */
+    position: relative;
+    margin-left: 12px;
+    margin-top: -115px;
+  }
+  #sign {
+    margin-left: 12px;
+    width: 90px;
+    height: 50px;
+    background-color:blue;
+    border-radius: 5px;
+
+  }
+  .searchbar {
+    display:block;
+    width: 70%;
+ margin: auto;
+ align-items: center;
+ padding-top: 120px;
+    
+  }
+  .bouton {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+
+  .recherche {
+    margin-right: 189px;
+    margin-top: -77px;
+    margin-left: 256px;  
+    font-size: 40px;
+    color:aliceblue
+    
+  }
+  .bouton
+  {
+    position: absolute;
+    margin-right: 189px;
+    margin-left: 315px;
+    font-size: 30px;
+    height: 100px;
+    
+  }
+
+  .bas {
+    border: 1px solid black;
+    display:flex;
+    
+  }
+  .fully {
+    border: 1px solid red;
+  }
+  .bootrap{
+    border: 1px solid yellow
+  }
+  .easy {
+    border: 1px solid green;
+  }
+  

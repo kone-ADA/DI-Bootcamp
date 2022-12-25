@@ -49,3 +49,18 @@ section .text{
     overflow: hidden;
     font-size: 1.2em;
 }
+
+/* Dispositifs très petits (téléphones, 600px et moins) */
+@media only screen and (max-width : 600px) {...}
+
+/* Petits appareils (tablettes en mode portrait et grands téléphones, 600px et plus) */
+@media only screen and (min-width : 600px) {...}
+
+/* Périphériques moyens (tablettes en mode paysage, 768px et plus) */
+@media only screen and (min-width : 768px) {...}
+
+/* Grands appareils (ordinateurs portables/de bureau, 992px et plus) */
+@media only screen and (min-width : 992px) {...}
+
+/* Appareils très grands (ordinateurs portables et de bureau, 1200px et plus) */
+@media only screen and (min-width : 1200px) {...}
