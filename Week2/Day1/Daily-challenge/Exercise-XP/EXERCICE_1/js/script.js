@@ -1,8 +1,7 @@
-// EXERCICE 1
 const fruits = ["Banana", "Apples", "Oranges", "Blueberries"];
 
 //Remove Banana from the array
-fruits.shift();
+fruits.pop() 
 console.log(fruits) //["Apples", "Oranges", "Blueberries"]
 
 // Sort the array in alphabetical order.
@@ -21,8 +20,4 @@ console.log(fruits) //['Banana', 'Blueberries', 'Oranges', 'kiwi']
 fruits.reverse()
 console.log(fruits) //['kiwi','Oranges', 'Blueberries', 'Banana']
 
-//EXERCICE 2
-
-const moreFruits = ["Banana", ["Apples", ["Oranges"], "Blueberries"]];
-console.log(moreFruits[1][1][0])
 
