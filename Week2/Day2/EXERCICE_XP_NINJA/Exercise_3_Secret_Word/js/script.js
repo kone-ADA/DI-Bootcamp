@@ -1,3 +1,6 @@
 let secret = prompt("Enter a word")
 
-console.log(secret.replace(new RegExp("[aeiou]"),'1'))
+let pat = /^a|^e/;
+
+console.log(pat)
+console.log(secret.replace(pat,'1'))
